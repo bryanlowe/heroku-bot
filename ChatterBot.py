@@ -26,7 +26,7 @@ def TweetOut(tweet_number):
 counter = 0
 
 # Infinitely loop
-t_end = time.time() + 60 * 5
+t_end = time.time() + 60 * 10
 while(time.time() < t_end):
 
     # Call the TweetQuotes function and specify the tweet number
